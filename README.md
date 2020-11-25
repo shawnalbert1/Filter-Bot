@@ -3,8 +3,7 @@
 - `DATA BASE`: Sqlalchemy Database
 - `DATA LIMIT`: 10000
 
-Join In Our [Movie Group](https://t.me/Malayalam_Movies_Groups) And Get [All Links Of Our Channels](https://t.me/MYM_LINKZ)
-Our Beta [Filter Bot](https://t.me/Filters_Robot).
+Join In Our [Movie Group](https://t.me/Malayalam_Movies_Groups) And Get [All Links Of Our Channels](https://t.me/MYM_LINKZ).
 
 Alternatively, [find me on telegram](https://t.me/Qwertyclass)! (Keep all support questions in the support chat, where more people can help you.)
 
