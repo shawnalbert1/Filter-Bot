@@ -42,7 +42,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/fc734b227985a1524e715.jpg"    
+         "value": "https://telegra.ph/Qwertyclass-11-24"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
