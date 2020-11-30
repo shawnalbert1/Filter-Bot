@@ -28,7 +28,7 @@ from bot.modules.connection import connect_button
 
 PM_START_TEXT = """
 *Hello* *{}*
-*My name is* *{}*\n\n`You Can Add any kind of Filters to This Bot!`
+*My name is* *{}*\n\n`This Bot is only for Cinema Festival!`
 
 _Click Help button for more details_
 """
@@ -71,7 +71,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/fc734b227985a1524e715.jpg"
+    img = "https://telegra.ph/file/f97feacffeb13b7d46168.jpg"
 else:
   img = START_IMG    
     
@@ -172,8 +172,8 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="⚙️Help",callback_data="help_back"),InlineKeyboardButton(text="Master😴",url="https://t.me/Qwertyclass")]]
-    keyboard += [[InlineKeyboardButton(text="👨‍👩‍👦‍👦Group",url="https://t.me/Malayalam_Movies_Groups"),InlineKeyboardButton(text="📣Channel",url="https://t.me/MLM_LINKZ")]]
+    keyboard = [[InlineKeyboardButton(text="⚙️Help",callback_data="help_back"),InlineKeyboardButton(text="✨ Promotion",url="https://t.me/cf_admin_1")]]
+    keyboard += [[InlineKeyboardButton(text="👨‍👩‍👦‍👦Group",url="https://t.me/cf_discuss"),InlineKeyboardButton(text="📣Channel",url="https://t.me/joinformoviez")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
